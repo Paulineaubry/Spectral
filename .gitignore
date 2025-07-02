@@ -1,0 +1,14 @@
+# Fichiers à ignorer par git
+.env
+.venv/
+__pycache__/
+*.pyc
+lyrics_batches/
+album_batches/
+spotify_batches/
+*.sqlite3
+*.db
+.DS_Store
+# Fichiers de données volumineux
+*.csv
+!requirements.txt
