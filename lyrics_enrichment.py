@@ -75,7 +75,6 @@ for batch_num, start_idx in enumerate(range(0, len(df), BATCH_SIZE)):
 print("Tous les lots sont traités !")
 
 # === Fusion finale ===
-# Chemin vers tous tes batchs
 batch_files = glob.glob("lyrics_batches/batch_*.csv")
 
 dfs = [pd.read_csv(f) for f in batch_files]
